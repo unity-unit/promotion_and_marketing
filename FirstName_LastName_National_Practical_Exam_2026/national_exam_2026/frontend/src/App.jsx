@@ -35,10 +35,6 @@ export default function App() {
     void apiBase
   }, [apiBase])
 
-  if (!me) {
-    // will be set by Protected; this fallback route prevents blank home screens
-  }
-
   return (
     <div className="appShell">
       <nav className="topNav">
